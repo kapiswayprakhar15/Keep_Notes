@@ -26,7 +26,7 @@ const Form = () => {
 
   const onTextAreaClick = () => {
     setShowTextField(true);
-    containerRef.current.style.minHeight = '10 0px'
+    containerRef.current.style.minHeight = '100px'
   
   }
   const handleClickAway = () => {
