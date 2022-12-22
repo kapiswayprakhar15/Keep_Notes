@@ -13,7 +13,6 @@ const DrawerHeader = styled('div')(({ theme }) => ({
   ...theme.mixins.toolbar,
 }));
 
-
 export const reorder = (list, startIndex, endIndex) => {
   const result = Array.from(list);
   const [removed] = result.splice(startIndex, 1);
@@ -33,9 +32,6 @@ const Notes = () => {
     const items = reorder(notes, result.source.index, result.destination.index);
     setNotes(items);
   }
-
-
-
 
   return (
     <>
