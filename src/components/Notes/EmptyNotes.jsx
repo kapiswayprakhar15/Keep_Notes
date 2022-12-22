@@ -31,9 +31,9 @@ const EmptyNotes = () => {
   return (
     <Container>
         <Book/>
-        <Typography>Notes you add appear here</Typography>
+        <Text>Notes you add appear here</Text>
     </Container>
   )
 }
 
-export default EmptyNotes
+export default EmptyNotes;
